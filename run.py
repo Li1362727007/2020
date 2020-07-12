@@ -1,5 +1,5 @@
 import sys, io
-sys.stdout=io.TextIOWrapper(sys.stsout.buffer,encoding="gb18030")
+sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding="gb18030")
 
 import openpyxl
 import  requests
